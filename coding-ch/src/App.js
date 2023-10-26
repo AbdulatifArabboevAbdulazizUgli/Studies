@@ -9,7 +9,6 @@ function App() {
   const [currencyTo, setCurrencyTo] = useState("USD");
   function getAmount(e) {
     setInputAmount(e.target.value);
-    console.log(e);
   }
   function getCurrFrom(e) {
     setCurrencyFrom(e.target.value);
